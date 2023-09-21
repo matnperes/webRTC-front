@@ -175,6 +175,7 @@ const addStreams = (stream, connUserSocketId) => {
   videoContainer.classList.add('video_track_container')
   const videoElement = document.createElement('video')
   videoElement.autoplay = true
+  videoElement.playsInline = true
   videoElement.srcObject = stream
   videoElement.id = `${connUserSocketId}-video`
 
