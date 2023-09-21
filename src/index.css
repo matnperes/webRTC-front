@@ -28,3 +28,19 @@ code {
   flex-wrap: wrap;
   border-radius: 15px;
 }
+
+@media only screen and (max-device-width: 500px) {
+  .videos_portal_styles {
+    margin-left: 0%;
+    width: 100%;
+    height: calc(100vh - 15%);
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+  }
+
+}

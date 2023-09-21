@@ -337,16 +337,6 @@
   flex-grow: 1;
 }
 
-/* .identity {
-        position: absolute;
-        left: 0px;
-        bottom: 15px;
-        color: white;
-        padding-left: 15px;
-        box-sizing: border-box;
-        z-index: 10;
-      } */
-
 .video {
   display: flex;
   align-items: center;
@@ -490,4 +480,61 @@ video {
 .label_only_audio_container {
   font-size: 18px;
   color: black;
+}
+
+@media only screen and (max-device-width: 500px) {
+  .chat_section_container {
+    display: none;
+  }
+
+  .room_label {
+    position: absolute;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    z-index: 4;
+    font-size: 1px;
+    margin: 0 10%;
+  }
+
+  .room_label_paragraph {
+    font-size: 14px;
+    margin-top: 0;
+    padding: 15px 18px;
+    background: linear-gradient(168.68deg, #BB322E 1.12%, #AD2723 100%);
+    border-radius: 0px 0px 15px 15px;
+  }
+
+  .participants_section_container {
+    display: none;
+  }
+
+  .video_section_container {
+    height: 100%;
+    background-color: #323232;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .switch_screen {
+    display: none;
+  }
+
+  .video_buttons_container {
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 20%;
+    bottom: 0;
+    background: linear-gradient(168.68deg, #000000 1.12%, #000000 100%);
+    border-radius: 25px;
+  }
+
 }
