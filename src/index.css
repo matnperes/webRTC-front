@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
 }
 
 #root {
@@ -40,7 +40,6 @@ code {
     display: flex;
     justify-content: space-between;
 
-    flex-wrap: wrap;
-  }
-
+    flex-wrap: wrap;
+  }
 }
