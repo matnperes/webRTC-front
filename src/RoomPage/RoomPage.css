@@ -22,7 +22,7 @@
 
 .chat_label_paragraph {
   font-weight: 700;
-  color: #DB7774;
+  color: #db7774;
   margin-left: 40px;
   font-size: 16px;
 }
@@ -41,7 +41,7 @@
 }
 
 .new_message_input {
-  border: 1px solid #DB7774;
+  border: 1px solid #db7774;
   border-radius: 8px;
   padding: 0 20px;
   height: 50px;
@@ -84,14 +84,14 @@
 }
 
 .message_left_styles {
-  background: #BB322E;
+  background: #bb322e;
   color: white;
   border-radius: 15px 15px 15px 0px;
 }
 
 .message_right_styles {
   background-color: #323232;
-  border: 1px solid #BB322E;
+  border: 1px solid #bb322e;
   color: white;
   border-radius: 15px 15px 0px 15px;
 }
@@ -249,7 +249,7 @@
 
 .participants_label_paragraph {
   font-weight: 700;
-  color: #DB7774;
+  color: #db7774;
   margin-left: 40px;
   font-size: 16px;
 }
@@ -296,7 +296,7 @@
 }
 
 .video_button_image:hover {
-  background: #BB322E;
+  background: #bb322e;
   padding: 10px;
   border-radius: 25px;
 }
@@ -310,7 +310,7 @@
   border-radius: 65px;
   border: none;
   color: white;
-  background: #BB322E;
+  background: #bb322e;
   box-shadow: 0px 3px 30px rgba(252, 93, 91, 0.1);
   transition: 0.2s;
 }
@@ -381,70 +381,70 @@ video {
   color: white;
   margin-top: 0;
   padding: 18px 38px;
-  background: linear-gradient(168.68deg, #BB322E 1.12%, #AD2723 100%);
+  background: linear-gradient(168.68deg, #bb322e 1.12%, #ad2723 100%);
   border-radius: 0px 0px 15px 15px;
 }
 
 .video_track_container:first-child:nth-last-child(1) {
   width: 100%;
   height: 100%;
-  position: relative
+  position: relative;
 }
 
 .video_track_container:first-child:nth-last-child(2),
-.video_track_container:first-child:nth-last-child(2)~.video_track_container {
+.video_track_container:first-child:nth-last-child(2) ~ .video_track_container {
   width: 50%;
   height: 50%;
-  position: relative
+  position: relative;
 }
 
 .video_track_container:first-child:nth-last-child(3),
-.video_track_container:first-child:nth-last-child(3)~.video_track_container {
+.video_track_container:first-child:nth-last-child(3) ~ .video_track_container {
   width: 50%;
   height: 50%;
-  position: relative
+  position: relative;
 }
 
 .video_track_container:first-child:nth-last-child(4),
-.video_track_container:first-child:nth-last-child(4)~.video_track_container {
+.video_track_container:first-child:nth-last-child(4) ~ .video_track_container {
   width: 50%;
   height: 50%;
-  position: relative
+  position: relative;
 }
 
 .video_track_container:first-child:nth-last-child(5),
-.video_track_container:first-child:nth-last-child(5)~.video_track_container {
+.video_track_container:first-child:nth-last-child(5) ~ .video_track_container {
   width: 33%;
   height: 33%;
-  position: relative
+  position: relative;
 }
 
 .video_track_container:first-child:nth-last-child(6),
-.video_track_container:first-child:nth-last-child(6)~.video_track_container {
+.video_track_container:first-child:nth-last-child(6) ~ .video_track_container {
   width: 33%;
   height: 33%;
-  position: relative
+  position: relative;
 }
 
 .video_track_container:first-child:nth-last-child(7),
-.video_track_container:first-child:nth-last-child(7)~.video_track_container {
+.video_track_container:first-child:nth-last-child(7) ~ .video_track_container {
   width: 33%;
   height: 33%;
-  position: relative
+  position: relative;
 }
 
 .video_track_container:first-child:nth-last-child(8),
-.video_track_container:first-child:nth-last-child(8)~.video_track_container {
+.video_track_container:first-child:nth-last-child(8) ~ .video_track_container {
   width: 33%;
   height: 33%;
-  position: relative
+  position: relative;
 }
 
 .video_track_container:first-child:nth-last-child(9),
-.video_track_container:first-child:nth-last-child(9)~.video_track_container {
+.video_track_container:first-child:nth-last-child(9) ~ .video_track_container {
   width: 33%;
   height: 33%;
-  position: relative
+  position: relative;
 }
 
 .video_section_container {
@@ -501,7 +501,7 @@ video {
     font-size: 14px;
     margin-top: 0;
     padding: 15px 18px;
-    background: linear-gradient(168.68deg, #BB322E 1.12%, #AD2723 100%);
+    background: linear-gradient(168.68deg, #bb322e 1.12%, #ad2723 100%);
     border-radius: 0px 0px 15px 15px;
   }
 
@@ -534,7 +534,6 @@ video {
     left: 20%;
     bottom: 0;
     background: linear-gradient(168.68deg, #000000 1.12%, #000000 100%);
-    border-radius: 25px;
-  }
-
+    border-radius: 25px;
+  }
 }
